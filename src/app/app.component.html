@@ -5,7 +5,10 @@
       <button class="btn btn-primary">Animate!</button>
       <button class="btn btn-primary">Shrink!</button>
       <hr>
-      <div></div>
+      <!-- set a width and height so we can see the div -->
+      <div style="width: 100px; height: 100px"
+        [@divState]="state">
+      </div>
     </div>
   </div>
   <hr>
